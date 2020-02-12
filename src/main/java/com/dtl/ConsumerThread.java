@@ -8,8 +8,7 @@ public class ConsumerThread implements Runnable {
 	private OperatorService operatorService;
 
 
-	public ConsumerThread(OperatorService operatorService) {
-		
+	public ConsumerThread(OperatorService operatorService) {		
 		this.operatorService = operatorService;
 	}	
 
