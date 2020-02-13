@@ -397,7 +397,8 @@ public class HouseScratch {
 			catch(Exception e){
 				logger.error(e.getMessage());
 			}
-		}		
+		}	
+		
 		return errTaskList;
 	}
 
