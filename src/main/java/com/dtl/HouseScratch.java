@@ -149,7 +149,6 @@ public class HouseScratch {
 	/**
 	 * 查询待处理的房子信息
 	 * @param status 0:检查未下架的房子信息  !=0:查询哪些房子会重新上架 
-	 * @return
 	 */
 	private List<PCData> getHouses(int status) {
 		if(null == conn)
